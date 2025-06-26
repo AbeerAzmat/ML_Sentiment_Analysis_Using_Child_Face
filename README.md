@@ -17,9 +17,10 @@ A deep learning-based face sentiment analysis system using Convolutional Neural 
 ## 📁 Folder Structure
 
 face-sentiment-analysis/
+
 ├── models/
-│ ├── emotion_model.h5 # Trained CNN model
-│ └── haarcascade_frontalface_default.xml # Face detection model
+|   ── emotion_model.h5 # Trained CNN model
+│   ── haarcascade_frontalface_default.xml # Face detection model
 │
 ├── dataset/ # NOT pushed to GitHub
 │ ├── training_set/
@@ -90,5 +91,5 @@ pip install tensorflow keras opencv-python numpy
 
 - Face detection via OpenCV Haar Cascades.
 
-  📬 License
+📬 License
 This project is open-source and free to use for non-commercial purposes.
