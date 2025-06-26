@@ -18,30 +18,27 @@ A deep learning-based face sentiment analysis system using Convolutional Neural 
 
 face-sentiment-analysis/
 
-├── models/
-|
-|   ── emotion_model.h5 # Trained CNN model
-|
-│   ── haarcascade_frontalface_default.xml # Face detection model
-|
-│
-├── dataset/ # NOT pushed to GitHub
-|
-│   ── training_set/
-|
-│      ── happy/
-│  ├── sad/
-│ │ └── angry/
-│ └── test_set/
-│ ├── happy/
-│ ├── sad/
-│ └── angry/
-│
-├── train_model.py # Trains the CNN model
-├── predict_sentiment.py # Predicts emotion from an input image
-├── test_images/ # Sample images for testing
-├── requirements.txt # Python dependencies
-└── README.md # Project description
+models/
+   emotion_model.h5 # Trained CNN model
+   haarcascade_frontalface_default.xml # Face detection model
+   
+dataset/ # NOT pushed to GitHub
+
+   training_set/
+      happy/
+      sad/
+      angry/
+      
+   test_set/
+       happy/
+       sad/
+       angry/
+
+train_model.py # Trains the CNN model
+predict_sentiment.py # Predicts emotion from an input image
+test_images/ # Sample images for testing
+requirements.txt # Python dependencies
+README.md # Project description
 
 ---
 
